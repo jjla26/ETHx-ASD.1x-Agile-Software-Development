@@ -268,3 +268,151 @@ It was published by Springer.
 It's available both in paper and PDF, electronically.
 And in particular, if you want to go deeper into some of the material
 that I will cover in this course, the book will be useful.
+
+# Curso   Week 1   1.2 Context   Agile Methods
+
+## Agile Methods
+ 
+0:00 / 9:41Velocidad: Presiona ARRIBA para acceder al menú, luego usa las teclas de ARRIBA y ABAJO para cambiar a diferentes velocidades, y presiona ENTER para cambiar a la velocidad seleccionada.Velocidad1.25xHaz clic en este botón para silenciar o activar el sonido del vídeo o usa los botones ARRIBA o ABAJO para aumentar o disminuir el nivel de volumen.Muy alto Volumen.Transcripción de video
+Inicio de la transcripción. Saltar al final.
+PROFESSOR: Agile ideas have been combined
+into a number of full fledged methods, sometimes called methodologies.
+And in this segment, we're going to study four of them.
+They're not the only ones.
+There are a number of them out there, but these four
+are the ones that have garnered the most attention.
+We will start with extreme programming, which
+was only the first to hit the public.
+Then we'll continue with Lean Software and with the Crystal methodology.
+And we will end with the one that is the most visible today, that is really
+dominant on the scene, namely Scrum.
+Agile development is generally practiced in the form
+of one of the so-called agile methods.
+Agile methods including in particular, the four listed here.
+And there are a coherent sets of rules and practices
+that all draw their roots in the general ideas that we've started to see.
+The four best known ones are XP, which stands for Extreme Programming,
+and whose author is Ken Beck.
+Lean Software was devised by Mary Poppendieck
+with her husband Tom Poppendieck.
+Crystal was devised by Alistair Cockburn, and Scrum
+by Ken Schwaber and Ken Sutherland.
+I've given here the names of the creators of these methods,
+because there's a strong personal connotation
+to each one of these methods that is closely connected
+to the personality of their creators and to the books that each one of these
+have written about the corresponding methods.
+The first one to gain wide attention is XP Extreme Programming,
+which came out in the 90s.
+And XP Extreme Programming can be seen as a reaction
+against the culture that was predominant in software engineering circles
+at the time.
+A culture that emphasized process, that emphasized plans, diagrams.
+Things like UML, or CMMI.
+UML is the Unified Modeling Language.
+It's in particular, a diagramming convention for describing systems.
+CMMI, which is the Capability Maturity Model Integration,
+is a standard for defining best practices in software development.
+And these are all approaches that emphasize management,
+that emphasize process and documents.
+And extreme programming was in part a reaction against this.
+Drawing attention to the fact that what really matters in the end
+is the programs, and of course, the programming and the programmers.
+In the end, it's not diagrams that work or not.
+It's not documentation that tells you whether you have a working system.
+What counts is the software, the programs as we
+have already seen, in the principles of the Agile Manifesto.
+So Extreme Programming made a major contribution
+by rehabilitating so to speak, the work of programmers,
+and putting programs and programming at the center of software development.
+Lean Software is an attempt to apply to software
+a number of ideas and principles which have
+proved their value in other engineering fields,
+in particular, in the car industry.
+There's the famous set of practices developed in particular,
+by Toyota in Japan, which have been very influential, not just in the automobile
+industry, but throughout industry, in particular industries, that
+make material things.
+And the Poppendiecks applied these ideas to software,
+emphasizing in particular the need to get rid of what they call waste.
+While waste is clear in industries that make material things.
+But the Poppendiecks claim that we should also be on the lookout for waste
+in software, and get rid of things like for example, useless documentation,
+which they view as waste, in order to concentrate
+on stuff that is going to be actually delivered to the customer.
+Crystal is a little bit different from the others in that it
+is more of a combination of agile ideas and more traditional ideas.
+Crystal is actually the name for a set of methods
+characterized by various degrees of importance of process in management.
+Alistair Cockburn, who developed the Crystal set of methods
+is trying to combine the best of Agile with a best of more process
+oriented approaches.
+Scrum is the approach that has come to dominate the scene in recent years.
+And Scrum is less technical than, for example, the XP.
+It's not so much software-focused.
+It's more of a management method which emphasizes ideas
+that we are going to study in detail, such as the importance
+of self-organizing teams as opposed to teams that are closely managed
+by a manager, and the importance of a specific kind of short release
+iterations known as Sprints.
+It's important to note that in practice these days when we talk about Agile,
+we really talk about Scrum.
+This is the approach that officially at least,
+most organizations using Agile methods have really adopted.
+And it has somehow on the surface at least, wiped out all the others.
+This view however, is not entirely accurate.
+Because when you look under the surface, and when we
+you see what people who say they're using Scrum are actually using, well,
+they really use a lot of ideas from the other methods, in particular, XP.
+Especially when it comes to the more technical aspects of the process,
+many of the XP ideas, even if people don't necessarily
+realize that they come from Extreme Programming,
+have made their way into the standard form of Agile methods usually known
+as Scrum.
+When we continue at a high level of abstraction,
+at a bird's eye view of what Agile methods are,
+which is our purpose for this segment, it's
+important to know that initially with XP, one
+could view the use of Agile methods as a reaction against Dilbert's boss.
+So, so to speak, against the management aspect
+in favor of the view of the Dilberts of this world.
+And it is this rehabilitation of programming that I have talked about.
+There's also another aspect to Agile methods
+which is not that emphasized in the Agile literature,
+but which it is really important to understand if you
+want to know what Agile is about.
+It's the idea that I call negotiator scope.
+It expressed quite clearly in one of the books of Ken Beck about Agile.
+By the way, you can check the bibliography.
+When I say Beck 05, I refer to a particular book.
+And the bibliographic list is in the materials for the course.
+Also, while I'm at it, you may have noticed these little symbols,
+such as shown here.
+These are not official symbols for the methods.
+These are mine, but they will be used whenever
+I present an idea that is particularly associated with Extreme Programming,
+with Lean, with Crystal, or with Scrum.
+So coming back to the negotiator scope contract
+idea,
+what Beck tells us is write contract for software development at fixed time,
+cost, and quality, but call for an ongoing negotiation
+of the precise scope of the system.
+And so what this means in plainer English is that in the ideal world
+people often renounce the traditional commitment to both quality,
+functionality, and to do all three of quality, functionality, and delivery.
+In particular, functionality and delivery date.
+So the general idea is we can promise you a certain delivery date,
+or we can commit ourselves to a specific set of functionality.
+But it is very difficult to commit on both.
+And so this is very much the world as viewed by consultants.
+And it is one of the implicit characteristics of Agile methods,
+while not completely implicit since Beck explains it here.
+But that is going to be one of the points
+that we will have to discuss when we assess the value of Agile methods,
+and how much one should retain in practice.
+So what we've seen in this segment is that a number of Agile methods
+have emerged.
+I've cited four of them.
+Extreme programming, Lean Software, Crystal and Scrum.
+They shared the basic ideas, but differ in their goals and points of emphasis.
+
