@@ -416,3 +416,291 @@ I've cited four of them.
 Extreme programming, Lean Software, Crystal and Scrum.
 They shared the basic ideas, but differ in their goals and points of emphasis.
 
+# Curso   Week 1   1.2 Context   Official Agile Principles
+
+# Official Agile principles
+ 
+BERTRAND MEYER: An important part of the agile manifesto,
+making up the entire second page of the text,
+is a set of principles, 12 of them, which
+reflect the agilist view of the essential ideas of the agile approach.
+In this segment, we are going to review these principles.
+To improve our understanding of agile ideas, principles, and practices,
+let's go back to the official agile principles
+that we saw in the first segment.
+It's going to appear that as a way to understand the approach in depth,
+it's not the best possible source.
+Of course, this may sound pretentious or even arrogant
+since these principles were written by the originators
+of the agile approach themselves.
+So how can one say that he or she understands
+an approach better than its creators?
+But in fact, it's not so surprising first,
+of course, the manifesto is 15 years old and things have evolved since then.
+And maybe we understand things better.
+But more importantly, the originators of an idea
+are not necessarily the ones best equipped to explain it
+to the rest of the world.
+And we're going to see that this description is not
+the best possible one.
+It suffers, in particular, from a number of deficiencies.
+First, some of the claimed principles are not principles but practices.
+A principle and a practice are not the same thing.
+A principle is general and abstract.
+A practice is regular, practical, and concrete.
+So for example, if I tell you, set some money aside
+for your old age, that's a principle.
+If on the other hand, I tell you, every month put 7.5% of your monthly earnings
+into a savings account, that's a practice.
+Now the practice is there, obviously, to help satisfy the principle,
+but it's still quite different-- one, abstract and general, the other one,
+concrete and practical.
+And so when we say, deliver software frequently,
+from a couple of weeks to a couple of months
+with a preference for a shorter time scale, this is a practice.
+It's not a principle.
+When we see at regular intervals the team reflects
+on how to become more effective, then tunes
+and adjusts his behavior accordingly, again, it's not a principle.
+It's a practice.
+Now some of these principles are not practices but assertions.
+A principle should be prescriptive.
+A principle should tell you to do things in a certain way.
+An assertion, on the other hand, is a statement about the world.
+So here when we say, the most efficient and effective methods
+of conveying information to and within a development team
+is face to face conversation, well, this is not a principle.
+It's a statement about the world.
+It's an assertion.
+Of course, it could be turned into a principle
+by saying have face to face conversations often
+or something like that, avoiding, of course, turning it into a practice.
+But that's not the way it is written here.
+Another assertion is number seven, working software
+is a primary measure of progress.
+OK.
+Well, we could again turn this into a principle, but it's not a principle.
+It's an assertion.
+Another one is this number 10-- simplicity,
+the art of maximizing the amount of work not done is essential.
+Well, statement not principle.
+Also in a foundational document like this one,
+we might expect to see a set of principles which are individually
+separated, in which each provide a basic idea rather than repeating
+the ideas expressed by previous items.
+But here we have redundancy.
+For example, number one says, early and continuous delivery
+of valuable software.
+Number three says, deliver working software frequently.
+It's just repeating the same thing.
+Of course, sometimes it is good to repeat things
+but not in a foundational document that should express
+a number of independent principles.
+And as if this were not enough, number seven
+repeats essentially the same idea once more-- working software
+is the primary measure of progress.
+I think we understood with number one and if not, with number three.
+The principles are also remarkable by what's absent in them.
+For example, in all agile development, testing plays a major role
+but there's not a word in these principles about testing.
+It also doesn't help that some of the claimed principles, like number 10,
+in addition to be assertions are also wrong.
+If you assert something, you'd better be right.
+Now here it says, simplicity equated to the art
+of maximizing the amount of work not done-- well, it says it's essential.
+Sure, simplicity may be essential.
+The art of maximizing the amount of work not done it is also essential.
+But they're two completely different things.
+Simplicity is not obtained, in general, by working less.
+Anyone who has worked on difficult engineering or scientific problems--
+in fact, on many kinds of problems-- I think that writers, novelists, would
+probably say the same thing-- knows that simplicity is rarely
+attained the first time around.
+Very often when you come up with a first design, that is too complex.
+And you realize it's too complex.
+And you work on it until it is simple enough.
+So simplicity is not obtained by not working.
+Simplicity is obtained by working more.
+This was expressed quite well in a famous text
+by the French writer, Antoine de Saint-Exupery, in the 1930s.
+He was talking about aircraft construction.
+And he uses terms like calculators, which certainly meant something
+different than what it means today.
+A calculator then was a person.
+But still it's quite applicable to software.
+It seems, he writes, that the sole purpose of the work of engineers,
+designers, calculators, is to polish and smooth out, lighten the seam,
+balance that wing-- it's a beautifully written text-- until it
+is no longer noticed, until it is no longer a wing attached to a fuselage,
+but a form fully unfolded, finally freed from the ore--
+a sort of mysteriously joined whole and of the same quality as that of a poem.
+It seems that perfection is reached-- this last sentence says it all very
+well.
+It seems that perfection is reached not when there is nothing more to add,
+but when there is no longer anything to remove.
+Now if you want the same general idea expressed
+by someone who is much closer to us, both in time and in discipline
+since, of course, he was a computer or an IT person or a software person even,
+Steve Jobs, in a also famous interview to Business Week's in '98,
+said that's been one of my mantras-- focus and simplicity.
+And simple can be harder than complex.
+You have to work hard to get your thinking clean, to make it simple.
+But it's worth in the end, because once you get there, you can move mountains.
+So this is another example of why the principles are not quite right.
+And in the next segment, we're going to see
+how better to describe the agile approach,
+starting, of course, from the manifesto and from the principles expounded
+there, but trying to be more precise and more
+effective in capturing, in general but also
+in detail, what agile methods are about.
+So what we've seen is that the official principles give us a good starting
+point for understanding agile.
+But they fall short of explaining exactly what the method is.
+
+# Curso   Week 1   1.2 Context   Agile Values
+
+## Agile Values
+
+0:00 / 9:45Velocidad: Presiona ARRIBA para acceder al menú, luego usa las teclas de ARRIBA y ABAJO para cambiar a diferentes velocidades, y presiona ENTER para cambiar a la velocidad seleccionada.Velocidad1.0xHaz clic en este botón para silenciar o activar el sonido del vídeo o usa los botones ARRIBA o ABAJO para aumentar o disminuir el nivel de volumen.Muy alto Volumen.Transcripción de video
+Inicio de la transcripción. Saltar al final.
+The official agile principles which we have just reviewed
+are fundamental of course, because they come so to speak,
+from the horse's mouths.
+From the very people who originated agile ideas.
+On the other hand, they only provide one perspective
+and we're going to need a more general perspective.
+In fact, our description is going to be based on a number of levels,
+and the first of these levels is the values level.
+What are values?
+Values are the general philosophy that underlies the agile approach
+and from values follows everything else.
+Agile principles, agile roles, agile artifacts and agile practices.
+As we now prepare to study in more depth and detail what agile development truly
+is about, we've seen in the previous segment
+that the official agile principles do not really give us enough.
+They are helpful of course, very helpful to get started
+but they do not provide the precise guidance that we need.
+What we are going to use instead is a description along several axes, six
+of them in fact.
+Values, principles, roles, practices, and artifacts and this
+is what the rest of this course is going to explore
+before we come into the final assessment of agile ideas.
+The values are general ideas that underlie the agile approach.
+They're more like a philosophy, a vision.
+They're not yet principles that are precise enough to be used as principles
+but it's fundamental to understand them if you want to understand
+the rest of the agile approach.
+Then come the principles and we are going to have two kinds of principles:
+managerial and technical.
+Managerial principles apply to the management of software projects.
+Technical principles have to do with more software specific aspects.
+Then come roles.
+It turns out that agile methods define new roles in a software team
+and we defined some of the existing roles such as, the role of the manager.
+Then come practices and here again we have two sub-categories, managerial
+and technical.
+The practices are prescriptions as to what
+you have to do regularly in order to be an agile team and some of them
+have to do more with management of software projects
+and they're really independent of the application area then of software
+specific, they could be used in other areas.
+And the technical practices like for example pair programming,
+are strictly applicable to the software area.
+And finally, it turns out that agile methods often
+use some specific artifacts, either virtual or quite material.
+For example, we're going to use certain kinds of boards to record progress
+and we are going to have some kind of so certain techniques for interacting
+between the different members of the team
+and those are going to be the artifacts of the actual approach.
+So in order to get a complete description of the approach,
+we will have to study these six dimensions
+and to conclude this first lecture, let's look at the agile values.
+So once again they are general ideas that
+are directly applicable as principles, that's
+coming in the next lecture, specifically devoted to principles.
+But they are the general vision, the fundamental philosophy
+that defines agile methods and that is common to all such methods.
+New reduced role for manager, no big upfront steps,
+iterative development, limited negotiator scope and focus
+on quality, achieved through testing.
+The first one, new reduced role for manager, is quite important.
+Every software project traditionally at least, has a manager
+and often the manager plays many different roles.
+The manager is the person who assigns day to day tasks to developers
+and other members of the team.
+The manager is the one who is often responsible
+for the successful completion of the project.
+And in particular, responsible for making sure
+that the customer's needs, the users' needs, are met and as a result,
+he or she is going to be tasked with assessing
+whether a particular version of the development is satisfactory or not.
+Managers also often serve as mentors, as coaches, they
+provide interface to the rest of the organization
+and to the client organization.
+These are some of the many roles that traditional managers exert
+and what we're going to see with agile methods is that they drastically
+reduce the role of the manager, in particular managers in agile approaches
+do not assign tasks to project members.
+This may sound surprising if you haven't seen agile methods
+before, but this major traditional task of the manager
+is removed from the manager in agile approaches.
+And is handed over instead to the team, the self organized team which
+takes care, according to the agile credo,
+of assigning tasks to each member, to its members.
+B, no big upfront steps
+There's a very strong rejection in the agile world of steps
+that you have to perform at the beginning of the project.
+Traditionally, projects are going to do, at the beginning,
+a step of days, weeks, or sometimes months,
+of defining the requirements for that system.
+What it is that that system should do, another front step is design or architecture.
+These have often a significant amount of time, again weeks or months
+devoted to building the software architecture and the system
+architecture of the system under development.
+This is very much frowned upon and in fact
+rejected by agile approaches, which instead want the project
+to start coding right away, to start producing working software right away.
+It's not that they reject tasks like design or like requirements,
+but they made them continuous.
+They want you to do requirements as you go and to do design as you go.
+C Interactive development.
+We have done in agile approaches with the old style
+of having very long phases with reconciliation
+of the different pieces of the development at the end of such a multi
+months phase.
+Instead, the development in agile methods is iterative,
+it goes step by step and each step is typically a few weeks or even
+a few days or even in some cases in some extreme variants of agile methods, one
+day.
+A more typical length for an iteration is a few weeks typically a month,
+but this is very different from traditional approaches
+in which the various members of the team went away
+for a long while and reconciliation happened at the end. Here,
+the development is step by step, very progressive with short iterations.
+D Limited negotiator scope, there's a very strong emphasis
+in the agile view on making sure that the system does only what's needed.
+So as to limit waste in Lean terminology that
+is to say so as to avoid spending time on tasks that do not
+produce immediately visible added value for the customers,
+for the future users.
+So we are going to limit scope in various dimensions which
+we will see in the next lecture.
+But in particular we are going to make sure
+that we only build functionality that is strictly needed.
+And finally, the focus on quality achieved through testing.
+This, as we've seen a focus on excellence in agile development
+and the idea of quality in agile methods is very much
+identified with the idea of testing.
+And testing plays an important role in all the methods
+in particular through the notion of regression testing.
+So these are the five values that underlie absolutely everything
+that we are going to see about agile methods of course.
+We are going to see more concrete, more practical realizations of these ideas
+through the principles, roles, practices and artifacts.
+But to understand the detail of the specific techniques
+it's essential to understand what the underlying values are.
+What we've seen in this last segment of our first lecture
+is that beyond specific principles, practices, roles, and artifacts,
+agile ideas are defined by general values representing
+a general vision, a general philosophy of how software development should
+proceed.
