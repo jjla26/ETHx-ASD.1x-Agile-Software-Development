@@ -85,3 +85,186 @@ The values are at a more abstract level than the principles.
 They are a kind of general philosophy that underlies the entire Agile
 movement and from which everything else follows.
 
+# Curso   Week 1   1.2 Context   The Agile Manifesto
+
+## The Agile Manifesto
+ 
+PROFESSOR: The Agile Manifesto is the 15-year-old text
+which first presented Agile ideas.
+And it's remarkable to see how aptly it still characterizes the Agilist's view
+today.
+So let's see what it has to say.
+Agile methods came into prominence at the time
+of the publication of the so-called Agile Manifesto in 2001.
+This was, as the name suggests, a pamphlet,
+a manifesto, designed to attract the world's attention on the need
+to develop software differently.
+The manifesto was the work of a number of people.
+The original signatories of the manifesto, they're listed here.
+Most of them, perhaps all of them, are in fact software consultants.
+And the manifesto gained a lot of visibility,
+and has continued to be quoted widely since then.
+You can find it online at agilemanifesto.org.
+And here's what it says.
+We need to go through it in order to understand what Agile is about, as seen
+in the eyes of its own creators.
+It's a text that contrasts certain old ways of doing software, shown here
+on the right.
+At least viewed as old by the authors of the manifesto
+with a number of alternatives.
+They take care to indicate that they do not completely
+reject the stuff on the right.
+They say while there is value in the items on the right,
+we value the items on the left more.
+We are uncovering, they say, better ways of developing software,
+not just by talking about it, but by doing it.
+By actually developing software, we are practitioners.
+And by helping others as consultants to do it.
+Through this work, we have come to value the stuff on the left over the stuff
+on the right.
+Individuals and interactions over processes and tools.
+Working software over comprehensive documentation.
+Customer collaboration over contract negotiation.
+Responding to change over following a plan.
+So you can see the difference between the stuff on the left and the stuff
+on the right.
+The stuff on the right is really traditional,
+or viewed as traditional management-oriented techniques.
+Techniques that emphasize projects that are strictly managed.
+And the stuff on the left is more into individuals and collaboration
+and informality and people.
+So going through the four elements here.
+Individuals and interactions rather overly managed processes and tools.
+Working software, second point, rather than comprehensive documentation.
+There's a tendency in traditional projects
+to insist on documenting absolutely every thing that the software is
+going to do.
+Well, the Agile view here is to say documents are only documents.
+And really what counts is software that actually runs.
+This is the last word which solves all questions.
+Documents only say what the software should do.
+Software, by definition, says what the program does.
+3, customer collaboration over contract negotiation.
+Of course, you need to make sure that your software satisfies
+the needs of the customers.
+You can go have the lawyers involved.
+You can go weeks describing and discussing
+exactly what it is that the customer wants, and accepting it or not.
+It's much better to involve the customers,
+to involve the people representing the business
+from beginning to end in the project, in the development.
+And finally, responding to change over following a plan.
+One of the characteristics of software, and of course
+we haven't waited for the Agilists to tell us that, is that software changes.
+Hence the word soft in the very name of the field.
+Well, what's the Agilists emphasize here is that plans are great.
+But in the words of the German strategist Helmut von Moltke,
+the best battle plan doesn't survive the first contact with the enemy.
+And it's the same thing in software: requirements
+and advanced descriptions of what systems should do are great.
+But as soon as you start implementing stuff and showing it to customers,
+they're going to want something different.
+Hence, what is really more important than following a plan is
+to be able to respond to change.
+These general ideas are complemented in the Agile Manifesto by 12 principles.
+And we're going to go through them, because this
+is necessary to understand what Agile is about in the very words
+of its own creators.
+First, our highest priority is to satisfy the customer
+through early and continuous delivery of valuable software.
+There are several ideas here.
+We need to satisfy the customers.
+So the prime role of business representatives,
+of people who are going to use the system in the end,
+and the emphasis on early and continuous delivery of valuable software.
+Software that doesn't just run, but does something useful.
+And it has to be early.
+That is to say right from the start, we're
+going to start producing software rather than
+producing documents, or requirements, or designs, or architectures.
+And it's going to be continuous.
+That is to say, throughout the development,
+we're going to produce software again and again.
+2, welcome changing requirements.
+Well, between you and me, welcome is a little bit strong,
+because very few people welcome having to change what they have already done.
+But the idea is clear.
+It's that software is soft, and we have to accept rather than welcome perhaps,
+that requirements are going to change even late in development.
+Even when you're ready to ship, or you think you're ready to ship.
+Agile processes harness change for the customer's competitive advantage.
+So psychologically, this is quite important here.
+Change is not just something we accept as a necessary evil.
+It's something that we welcome, in their words.
+Because being able to react quickly to requests for changes
+is going to give the business a competitive advantage.
+3, deliver software frequently from a couple of weeks to a couple of months,
+with a preference to the shorter time scale.
+That is to say, weeks rather than months.
+So we are done with the old style of going away
+for months to work separately in the various parts of the system,
+and then trying to merge everything.
+Instead we are going to have very short iterations
+where we put everything together.
+4, businesspeople and developers will work together daily
+throughout a project.
+So it's not that we talk to the customers,
+to our users at the beginning to define the requirements,
+and at the end to check that we met the requirements.
+We're actually going to involve them throughout.
+5, build projects around individuals.
+So this is the emphasis on personal contact, and on individuals.
+In particular, individual developers and supported developers.
+Give them the tools, give them the support that they need
+and trust them to get the job done.
+Emphasis on trust.
+6, the most efficient and effective method
+of conveying information to and within the development team
+is face to face conversation.
+Again, emphasis on personal interaction.
+7, this is really a repetition because it has been said already.
+Working software is the primary measure of progress.
+Documents, requirements, designs, and so on are great,
+but they are not what is going to show you that you really progress.
+In the Agile view, the only measure of progress,
+or at least the primary measure of progress
+is the working software that you have actually produced so far.
+8, promote sustainable development.
+Don't overwork developers.
+It doesn't work in the long term.
+Make sure that everyone can maintain a constant pace indefinitely.
+9, technical excellence.
+Emphasis on making things right, on doing things right,
+and on having good design and high quality code.
+10, simplicity, which is defined here as the art
+of maximizing the amount of work
+not done.
+We'll come back to that.
+It is essential.
+So emphasis on finding the simplest possible solution.
+11, the best architecture's requirements and designs
+emerge from self-organizing teams.
+So the idea is that we should not over manage developers,
+but we should trust them to organize themselves.
+And of course, these are all points to which
+we're going to go back throughout this course.
+And finally, number 12, at regular intervals,
+meet and discuss what you have done in order
+to reflect on the successes and failures, and in order
+of course to adjust the team's behavior accordingly.
+This is Agile as viewed by its creators of course,
+at a high level of abstraction.
+And we're going to see the details of the practices,
+artifacts, and other techniques that make it possible to put
+these general ideas into practice.
+So what we've seen in this first segment of our first lecture
+is a set of principles defining Agile as seen by its creators.
+It's actually quite a few principles, 12 of them.
+And they give us the general idea.
+To benefit from this course, it's going to be useful for you to have access
+to the corresponding textbook.
+It's called Agile, the Good, the Hype, and the Ugly.
+It was published by Springer.
+It's available both in paper and PDF, electronically.
+And in particular, if you want to go deeper into some of the material
+that I will cover in this course, the book will be useful.
