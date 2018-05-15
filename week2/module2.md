@@ -425,3 +425,222 @@ We've also seen some criticism or limitations
 that can be expressed about these principles.
 And of course, we have a number of other principles complementing
 these, which we're going to cover in the next segment of this lecture.
+
+# Curso   Week 2   2.1 Principles   More organizational principles
+
+## More organizational principles
+
+BERTRAND MEYER: The third segment of this lecture about principles
+introduces a few more organizational principles to organize and manage
+our software projects.
+The final set of organizational principles is actually one principle
+but it is divided into three subprinciples.
+It's all about minimality.
+The Agile approach wants you to produce as little software
+as you can in order to produce what you do produce right.
+And minimality or minimalism has three aspects
+which are distinct, produce minimal functionality, 5.1;
+produce only the product requested, 5.2; and develop only code and test.
+So the first is about developing minimal software.
+This is a principle which was introduced
+I belief by extreme programming and which is commonly
+referred to in the Agile world.
+It goes by the slogan YAGNI for You Ain't Gonna Need It.
+That is to say, before you build a certain functionality into your system,
+make sure that someone somewhere really is going to need it.
+So here's what Ron Jeffries has to say, this principle, the YAGNI principle,
+reminds us always to work on the story we have,
+not something we think we are going to need,
+even if we know we are going to need it, which is perhaps a bit extreme.
+When he uses the word "story," he is referring to something
+that we're going to study in more detail, the notion of user story,
+which is the unit of functionality and also the unit of requirements.
+And so what he's saying is you get stories from users
+and don't try to do more than what the users have requested.
+They are going to give you individual stories, meaning
+individual pieces of functionality, and don't try to be too general.
+Here's another view on the same topic by Mary
+Poppendieck, "our software systems contain far more features
+than are ever going to be used."
+So she's criticizing many existing systems.
+Extra features increase the complexity of the code,
+driving up costs non-linearly.
+If even half of our code is unnecessary, a conservative estimate, the cost
+is not just doubled.
+It's perhaps 10 times more expensive than it needs to be.
+So as always, there's a grain of truth here.
+And certainly we have all grappled with software systems
+that we think have far too many functionalities, including
+things that we are never going to need.
+And when we're never going to need them, it's
+easy to conclude that no one is going to need them.
+But of course, the reality is usually more complex than that.
+If a functionality is there in a software system,
+it's not just because some crazy programmer has decided to put it in,
+but usually it's because some customer, some perhaps big money paying customer,
+wants it.
+So it's easy, of course, to dismiss systems as being too complex
+and having too many functionalities.
+But your useless bell and glitch may be my essential functionality.
+So these things are not-- this kind of criticism is partly founded, of course.
+It is true that people sometimes build in too much functionality.
+But there is only so much you can do to remove functionality.
+And of course, the quantitative elements in this criticism,
+non-linearly, if even half of our code is unnecessary, conservative estimate,
+it's perhaps 10 times more expensive than it needs to be,
+all this is very informal.
+I don't know of any studies that actually back these claims.
+So this is the kind of Agile advice that doesn't really go very far
+and should be taken with a grain of salt.
+So, in fact, if you're listening to Mary and Tom Poppendieck,
+it's more interesting to look at their definition of waste,
+because this is much more constructive and practical.
+So in the Lean approach, as we have already noted,
+there's an emphasis on avoiding waste.
+And this comes from industrial engineering.
+As I mentioned, it's from car production initially.
+And it's transposed here to software.
+So she talks about seven wastes of software development
+and gives examples for software.
+And it's actually quite interesting to look at this list,
+because it gives us some practical things
+to look out for, a checklist of things to check.
+And it's true that many software projects sin in some or sometimes all
+of these dimensions.
+So extra, unused features, that's over-production in classical industrial
+engineering, so don't build in any features
+that you're not sure someone, somewhere is going to need.
+Partially developed work which is not released.
+In classical industrial engineering, this corresponds, of course,
+to inventory, which people try to minimize.
+And in software, it's anything that the programmer tells you excitedly about,
+it's being developed but it's almost done,
+in the famous sense of almost in software engineering
+and it's never going to be released.
+Well, this is waste.
+Intermediate unused artifacts, so things that were, for example, preprocessors
+or various tools that had been built in order to help the project but in fact
+do not help it and just take time away.
+Seeking information, in industrial engineering this would be motion,
+too much time and money spent on moving products around.
+And Poppendieck's analogy for this in software
+is information that we don't have.
+We cannot do something because we are missing information about the customer
+needs or we're missing information about algorithmic techniques,
+and we waste time because of that.
+Escape defects not caught by test reviews.
+So in general this is defects, and of course defects are very costly.
+Waiting, including waiting for customers to tell us what they need
+or to give us some critical information about the business.
+And finally, handoffs.
+We've also encountered that the handover is the same thing.
+So in industrial engineering, it would be transportation, money and time
+lost by moving products or materials from plant to plant.
+In software, it's anytime there are several notations and tools
+used to work on the same thing, for example, an analysis and design
+notation like UML and then a programming language where
+you have to do translations and communication
+between various formalisms.
+It's much better to work in a single framework if you can.
+So this checklist of sources of waste to look for
+is a very useful contribution of the Lean approach.
+The second aspect of minimalism is to build a product only.
+And this is a reaction against too much pressure
+to build extendable software, that is to say software
+that will be changeable for new purposes, new requirements,
+and also to build reusable software.
+So here's a text by Ward Cunningham, one of the very top names in Agile,
+in particular in extreme programming, which talks about this.
+"You're always taught do as much as you can."
+And he means of course in traditional software engineering.
+"Always put checks in.
+Always look for exceptions.
+Always handle the most general case.
+Always give the user the best advice.
+Always print a meaningful error message.
+Always this, always that.
+You have so many things in the background that you're supposed to do,
+there is no room left to think.
+I say forget all that and ask yourself, what's
+the simplest thing that could possibly work?"
+This last sentence, what's the simplest thing that could possibly work,
+is also a well-known Agile, in particularly extreme programming,
+slogan.
+Well, this is really exaggerated of course.
+It's hard to criticize Walt Cunningham, who has many achievements to his name,
+in particular the invention of the wiki.
+But he is really going too far here and he is denying the effects of 40,
+50 years of software engineering and good software development practice.
+And indeed, the difference between good engineers and bad
+is partly that a good engineer is going to look beyond the immediate goals,
+beyond the immediate requirements that he or she has been given
+and instead try to build a product that is going to stand the test of time
+and the test of change.
+So this kind of advice really is somewhat Luddite
+and is best disregarded.
+And same thing about reuse.
+Here is another top name in extreme programming, Ron Jeffries.
+So basically, I'll let you read the details of the text.
+But what he's telling you is that he doesn't try
+to do more than what he's asked to do.
+And it's a waste of time most of the time to think about possible reuse.
+Just do what you're asked to do.
+And of course, this is not what good engineering is about,
+in particular good software engineering.
+In good software engineering, we try to think of not just today's project,
+but the next project.
+As always, there's a grain of truth.
+It's true that some programmers may indulge in too much perfectionism
+and see the long term at the expense of the short term.
+In the short term we have a product to deliver,
+but of course good software engineering means
+that you build stuff that is going to be useful
+again for your next project and the one after that.
+And really, this kind of advice is best ignored.
+There's a third aspect to minimalism.
+It's the emphasis on building only code and tests, so
+in a somewhat view of Agile method, but it's really what Agilists recommend.
+All that really matters and all that you should build is code and tests.
+So Cockburn, Alistair Cockburn writes, "you
+get no credit for any item that does not result in running tested code."
+And then, as I pointed out, he is somewhat more modern than some
+of the other Agilists so he adds as a qualification,
+OK, you also get credit for final deliverables,
+such as training materials and delivery documentation.
+Well, thanks for the permission.
+But my customers would probably be very upset at me
+if I did not deliver training materials and everything that they
+expect for practical use of the system.
+Poppendieck, "the documents, diagrams, and models"--
+maybe I should use a different tone to read this, because it stinks.
+She doesn't like the documents. "The diagrams,
+the models produced as part of a software development project
+are often consumables."
+This is also a negative word, right? "Are often just consumables,
+aids used to produce the system but not necessarily
+a part of the final product.
+Once a working system is delivered, the user
+may care little about intermediate consumables."
+Well, sure.
+But this is true of any engineering, right?
+If you are walking over a bridge, you're a user of the bridge
+and you certainly don't pay much attention,
+you care little about the plans and diagrams
+that were used by the bridge builders.
+On the other hand, it doesn't mean they were useless.
+So again, this kind of advice saying reject any intermediate product,
+just focus on code and tests, has a grain of truth.
+It is true that people in projects sometimes pay too much attention
+to intermediate products.
+But in the end, you do need, like in any good engineering, plans
+and documents and diagrams.
+Otherwise, you're not going to get very solid results.
+So what we've seen in this segment is the Agile insistence on minimality
+in three ways, minimal functionality, build
+a product only today's product only, not tomorrow's, and only code and tests.
+And we have also seen that there is a criticism of approaches
+that put too much emphasis on plans and intermediate documents.
+The criticism is partly justified, but it really goes too far.
+And these are not the best parts of Agile message.
+We should not hear some of the more extreme advice
+and we should practice good engineering.
