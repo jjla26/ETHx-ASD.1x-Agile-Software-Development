@@ -644,3 +644,279 @@ The criticism is partly justified, but it really goes too far.
 And these are not the best parts of Agile message.
 We should not hear some of the more extreme advice
 and we should practice good engineering.
+
+
+# Curso   Week 2   2.1 Principles   Technical principles
+
+## Technical principles
+
+PROFESSOR: In this fourth segment of the principles lecture,
+we move away from organizational and managerial principles
+to focus on what should be our focus, namely software development.
+So we are going to see a number of technical principles coming
+from extreme programming and other methods,
+which are specific to using Agile methods to develop software.
+We now move on from the organizational principles of the last two segments
+to technical principles.
+There's going to be three of them.
+Two with sub-principles develop iteratively,
+treat tests as a key resource.
+This is going to be the central role of tests in Agile development
+and express requirements through scenarios,
+for which the more specific technical term will be user story.
+First, develop iteratively-- this has two aspects, 6.1
+frequent working iterations, 6.2 the close window rule,
+freeze requirements during iteration.
+First, iterative development-- well, if we
+look at the notion of iterative development,
+there are two possible interpretations.
+And let me say right away that the Agile view of iterative development
+is the second one, the horizontal one, in which we have horizontally
+layered clusters.
+But it's useful to generalize the discussion a little bit.
+So one way of interpreting iterative development
+would be to say in any system, we have a number of technical layers,
+from the most technical, for example, database or networking to the most
+user-oriented, such as a user interface.
+So one way to say we develop iteratively,
+which is not the Agile way, would be to say
+we start with the most fundamental stuff, because it's
+going to be the infrastructure on which everything else is built.
+So we start maybe with a database.
+Then we move on to the networking.
+Then we move on to the business logic.
+Business logic means what the program actually
+does, whatever it is-- managing accounts for a bank, managing
+documents for a text processing system, and so on.
+And then we move on to the user interface.
+So that's one way of working iteratively.
+And it's not what the Agile view of iterative development is.
+Instead, we are talking about its iterations
+that each produce a working system.
+And particularly, we're talking about frequent iterations.
+But each one of these iterations is going to have,
+maybe in a miniature form, the entire system.
+So in our example, it's going to have a little bit of database, maybe very
+rudimentary, or just simulated at first, a little bit of networking,
+a little bit of business logic, and some kind of user interface.
+But it's already going to be showable to and usable
+by a typical customer, or a test user, or an embedded customer,
+if we are using the extreme programming technique.
+And each one of these iterations includes the entire system-- however
+partial the version may be.
+Now, the emphasis here is on frequent iterations.
+In the early days of Agile, people were saying something like a few weeks
+to a couple of months.
+A couple of months is really the upper bound.
+Typically, Agile projects use two to four weeks-- I should say two
+to six weeks-- as their standard.
+In my work, we have adopted iterative development.
+And a period is one month, one calendar month,
+because it makes it easy to remember the January release,
+the February release, and so on.
+But in Agile projects in general, it varies sometimes down to one week
+or even one day for in the more extreme forums.
+The emphasis is on having frequent iterations
+and frequent partial deliveries.
+This notion of frequent working iteration
+is, of course, part of the mark that the Agile approach
+has made on the software world.
+We no longer have very long release cycles, as we use to have.
+At least internally, we have typically a few weeks for a release cycle.
+Now, there's a rule which goes with this, which is extremely interesting.
+It's what I call the close window rule.
+It's my terminology, because although the idea of figures in the Agile
+literature, and particularly in the scrum literature,
+it doesn't really have a name.
+But it turns out even though it's not that much emphasized typically, it
+turns out to be one of the major contributions of the Agile approach.
+And what it says is very simple.
+During an iteration, no one may add functionality.
+So we take a certain iteration, also known as a sprint in scrum terminology.
+And it has a certain list of functionalities to be implemented.
+For it could be a task list.
+It could be a list of user stories, which
+we're going to see in a few moments, which are elements of the requirements.
+So this is what you're supposed to do during the iteration.
+And of course, we're going to try to do all of it.
+Maybe you'll only be able to realize part of it.
+The rule says that whatever happens, no one
+is permitted to add anything to that list.
+And it doesn't matter who the person is.
+That could be the CEO of the company or of the customer company.
+If it has not been planned for that iteration, it doesn't go in.
+And of course, to be meaningful, the rule
+has to be applied without exceptions whatsoever.
+If you start making exceptions, then the whole discipline breaks down.
+So why is this a good idea?
+Well, for several reasons-- first, it brings order into the process.
+It means that we know what we are working on
+and we're not constantly readjusting to new priorities.
+Second, it only works, of course, with short iterations of, at most,
+a few weeks, as we just discussed.
+Of course, for longer iterations, it would not be sustainable.
+But here, let's say we have the one month iteration period.
+Well, on the average, what's going to happen for a great idea that has just
+been proposed, if it's just moved on to the next iteration, to the next print,
+on the average, it's going to be delayed by two weeks, which
+is usually not a catastrophe.
+And also, this has the advantage that there's
+a certain natural attrition of ideas.
+And it's very easy for someone to say, I absolutely, I have a brilliant idea.
+This absolutely needs to be done right now.
+But maybe when you wake up the next morning and the brilliant idea
+doesn't look so brilliant after all, or at least so urgent,
+and so there's a natural phenomenon of sorting of ideas into good,
+less good, and not really important.
+So that's one of the biggest contributions of the Agile approach
+to software development.
+And I would strongly advise you to use this rule.
+Now in some cases, a new functionality really
+is crucial to react to competition, to react
+to the needs of an important customer.
+So then there's an escape mechanism, what we
+would call an exception in programming.
+But it's rather extreme.
+We cancel the sprint, and we restart a new sprint with a new task list.
+So it's possible to do this.
+But of course, it's sufficiently drastic that people think twice
+about going into that solution.
+The general question is here, how do we compromise?
+How do we integrate the two kinds of iterative development?
+Now, the first form where we build the infrastructure first,
+the essential functionality, is really scorned by Agilists,
+because it doesn't result in reusable systems right away.
+On the other hand, it is just good engineering
+to start by building the infrastructure, the stuff that everything else is going
+to need and which it may be a very, very bad idea, very dangerous
+to postpone to the end if it's really so critical.
+And on the other hand, the Agile criticism
+that is justified that people often spend far too much time and energy
+at the beginning without producing any useful functionality.
+So what one can recommend here, although this is not what Agilist do,
+is to have what may be called dual development.
+Early on, despite what Agile texts say, build the infrastructure.
+Build this stuff that has the most risk and that has to be done really right.
+But don't do this forever.
+At some point, someone, like the project leader or the product owner in Scrum,
+should come in and say, OK, enough guys.
+We have the infrastructure now.
+It's good enough.
+So let's actually produce releases.
+This actually produce things that users can get their hands on and tell us
+whether it's what they want or not.
+So are we shipping yet?
+This mixed Agile, non-Agile approach is, I believe, the right way to go.
+Next principle, tests-- 7.1, do not move on until all tests pass.
+This is part of the Agile approach's emphasis on the importance of testing.
+And the idea here is that we have what is known as a regression test suite.
+We will come back to this notion in the discussion of practices.
+This is a collection of tests that are essential to the project.
+And one reason they are essential is that all of them,
+or at least most of them, failed at some point.
+And we want to check that the failures do not reappear,
+that the faults do not reappear.
+And so the idea of this principle here is
+that it is forbidden to start adding new functionality
+until we are sure that all the existing tests pass.
+That is to say, all the existing functionality is
+reasonably well-implemented as guaranteed, or at least supported,
+by the regression suite.
+So it's a tough rule, because there might be functionality
+that you think is not so essential.
+So we'll fix these later, even though some tests are not passing.
+But it's a really good discipline to stay in consideration
+of practical constraints.
+Don't move on until everything in the past works.
+Don't go to the future until the past is clean.
+And that is part of the emphasis on technical excellence of the Agile
+approach.
+There's another aspect to this testing principal-- test
+first, which is also quite important.
+But we are going to study it later, so I'll
+defer the discussion to the lecture on practices, the next lecture.
+The final technical principle here is the notion of scenario--
+more precisely in the Agile world, user stories.
+There are other kinds of scenarios-- for example, use cases--
+but in the Agile world, it's mostly user stories.
+And the idea is that user stories are the main form of requirements, or often
+the only form of requirements, in the Agile world.
+What's a user story?
+According to Mike Cohn, it's simply something your user wants.
+Examples would be things like paginate to monthly sales report, change tax
+calculations on invoices, and so on.
+There's a standard form that has emerged in the Agile world
+for representing user stories, these pieces of functionality,
+as a something.
+I want something so that something.
+The first something is a user role-- for example, a customer.
+The second something is a business functionality,
+such as see a list of recent orders.
+And then there's a business justification.
+And so a typical example would be as a customer of an e-commerce site,
+I, the user, want to see a list of my recent orders
+so that I can track my purchases with a particular company,
+be it Amazon or anything else.
+And the idea of requirements in Agile development
+is not that you write a requirements document at the beginning.
+That was the traditional and scorned approach.
+It's that you pile up requirements in the form of individual user stories.
+And then the accumulation of these user stories at the end
+is going to give you a system as you implement the user stories.
+But you produce the user stories as you go, not all at the beginning.
+And then you implement them right away in the following sprint.
+Here's another example of a user story that you
+can look at in more detail from an article by Waters.
+As a registered user, I want to log in so
+that I can access subscriber content.
+And he writes, I would certainly argue it's more easily digestible,
+these kind of the requirements is more easily
+digestible, than a lengthy specification,
+especially for business colleagues.
+Well, sure-- does it, on the other hand, make for the best possible requirements
+to produce a system that satisfies the user needs?
+Well, the problem with user stories is that they are examples.
+So they are to requirements what tests are
+to specifications, individual examples.
+To have a little fun, I took in a blog posting the following example.
+You can read the details in this blog post here.
+And the question is, I'm giving you a function with some examples.
+And I'd like you to tell me what the function is.
+So the value for zero is zero.
+The value for one is one.
+The value for two is four.
+The value for three is nine.
+The value for four is 16.
+So what is that function?
+OK, I'll be kind.
+I'll give you the value for five.
+It's 25.
+And I had some fun in this blog article to plug
+these values into curve fitting programs.
+And sure enough, I find the square function, X square.
+But we can also get this kind of function here.
+Or we can get this really interesting function that fits very well.
+So the point of this little fun example is simply to show the obvious.
+That is to say, examples do not replace a general abstraction.
+If I tell you this is a square function, I've
+given you all the possible answers.
+If I give you a million values, I've still left a lot of ambiguity.
+And when we do requirements, we need more than examples.
+We need the abstraction.
+And the task of the requirements engineer is to go beyond the examples
+and derive the abstraction.
+Does it mean that user stories are useless?
+Certainly not.
+They're essentially a tool for validating requirements.
+If you have more general, more abstract requirements, then user stories
+enable you like a kind of a smoke test, a litmus test, to check that.
+Besides having a good general description,
+the system will perform right in typical scenario.
+So that is extremely useful, but it's not a substitute for requirements.
+What we have seen this segment is a number
+of principles of Agile development.
+Again, the technical principles-- iterative development,
+the fundamental role of tests-- and there's more on this
+to come-- and user stories as the Agile source
+of requirements, also some of the limits of this reliance,
+this exclusive reliance on user stories for requirements.
