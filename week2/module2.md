@@ -920,3 +920,264 @@ the fundamental role of tests-- and there's more on this
 to come-- and user stories as the Agile source
 of requirements, also some of the limits of this reliance,
 this exclusive reliance on user stories for requirements.
+
+
+## A few method-specific principles
+ 
+0:00 / 17:12Velocidad: Presiona ARRIBA para acceder al menú, luego usa las teclas de ARRIBA y ABAJO para cambiar a diferentes velocidades, y presiona ENTER para cambiar a la velocidad seleccionada.Velocidad1.0xHaz clic en este botón para silenciar o activar el sonido del vídeo o usa los botones ARRIBA o ABAJO para aumentar o disminuir el nivel de volumen.Máximo Volumen.Transcripción de video
+Inicio de la transcripción. Saltar al final.
+BERTRAND MEYER: In the previous segments of this principles lecture,
+we studied principles which although they might originally
+have come from this or that method are pretty much nowadays
+common to and accepted by all Agile methods.
+In the last segment, we are going to take a look at a few principles which
+are specific to a particular method, in particular Scrum or Extreme
+Programming.
+Complementing the general principles that we've seen,
+organizational principles and technical principles
+which are common to all or most Agile methods
+are a number of principles introduced by specific methods,
+although they carry a general value and are worth studying.
+We will take examples from Scrum, from Crystal, and several
+from the Lean software approach.
+The first one indeed comes from Lean, Mary Poppendieck.
+We have already seen that a notion of waste
+and in particular the notion of fighting waste is central to Lean software.
+And we have already seen the seven wastes of manufacturing
+and their counterparts for software, as seen by Poppendieck.
+To complement this analysis, here is a more detailed checklist of stuff
+that constitutes waste in Poppendieck's eyes.
+And this is the kind of thing to be on the lookout
+for in software development.
+Unnecessary code; unnecessary functionality; delay in processes;
+unclear requirements that are going to delay you and hence cause waste;
+insufficient testing, which is going to lead to bugs that surface far too
+late in the process; repetition in the software
+process if it could be avoided; bureaucracy
+that stands in the way of effective development;
+internal communication that is too slow; coding that is not finished.
+A piece of code that is almost done is almost as bad as not
+done at all, because it doesn't produce any working functionality.
+Waiting, waiting for processes to finish,
+waiting for some other team or some other team member
+to complete his or her work, waiting for other activities,
+waiting for customers to tell you what you need to know from them.
+Bugs, of course, defects, lower quality, and anything managers
+do that instead of helping actually harms the process.
+So this is a quite useful checklist that you can keep to monitor your projects
+and make sure that they don't produce waste.
+Now the reverse of waste is learning.
+We are going to have after this negative list of things
+that we don't want, that is to say waste,
+the other side of the coin, the positive side of the coin, what
+we try to maximize rather than minimize like waste, and it's learning,
+learning also meaning information.
+Many of the mistakes we make which cause waste
+are due to insufficient information.
+We are in a tunnel looking for the light,
+looking for the end of the tunnel, and anything that sheds a little light
+is going to help us.
+So maybe the appropriate metaphor is a maze with not much light,
+and anything that enables us to find our way
+through the maze of developing a software system is going to be welcome.
+And how do we amplify and speed up learning?
+Well, we know that in Agile methods, it's
+important to run tests all the time.
+We're going to come back to this in the study of test-first development
+as part of practices.
+The justification for this in the Lean view
+is that it helps prevent the accumulation of defects.
+Tests give you learning.
+Tests give you information.
+Instead of documentation, which would be one way of producing learning,
+the Agile view is-- in particular the Lean view
+is that we should try different ideas by writing
+perhaps different variants of the code and it
+may be more effective a use of our time than to write documentation.
+Just try different solutions and see which one works best.
+Another way of gaining information is to present some results to our users
+and get their input.
+Also, short iteration cycles are justified here
+by the goal of amplifying learning.
+That is to say they give you immediate feedback
+and they provide you some light, helping you to get out of the maze.
+Another example is feedback sessions with customers.
+So the important notion here is learning.
+The more we learn, the less waste we are going to produce.
+Yet another idea, perhaps more controversial, from Lean
+is decide as late as possible.
+So the idea is to delay decisions as much as possible in order
+to avoid making decisions for which we do not have enough information.
+The danger here is to decide, because we have to decide,
+but we don't have the information that enables us to make the right decision,
+and then we either have to live with the wrong decision
+or at a high cost correct the decision, and scale back.
+So the justification here, for example, for the iterative approach
+is that it enables us to postpone some decisions
+and make sure that when we make the decision,
+we have the right information.
+Now this is in principle a good idea, of course,
+but we may also note that sometimes it's better to decide something
+than not to decide at all.
+Procrastinating is not a good way of managing a project
+and the idea of plans, which is much criticized by Agile methods,
+is in part to help us assess the various elements of information
+early on so that we can make the decisions
+and if possible make them early.
+An idea from the Crystal method is focus.
+Alistair Cockburn tells us that it's critical both for the team as a whole
+and for individuals in that team to keep focus,
+meaning not to disperse themselves too much.
+So for example, he criticizes the common practice
+of having developers active on several tasks at once, which decreases focus.
+So it's better to focus on the individual task of the moment,
+rather than to do everything at the same time.
+This ensures flow of progress.
+And one precise kind of advice that he gives
+is to deal properly with interruptions.
+One of the banes of software development in his view
+is the constant occurrence of interruptions for developers.
+And so he suggests, for example, having a rule
+that there are two-hour periods without any interruption whatsoever.
+And he also criticizes the current practice
+of switching developers from project to project or from task to task too often.
+So for example, assign a developer to a given project
+for at least two days before switching.
+Actually two days doesn't seem that much to me.
+And here I would go further than him and say make sure
+that people are not switched from project to project
+more often than every few weeks.
+The focus is also for the project as a whole,
+and ensuring that everyone has a clear and shared vision of what
+the project is about and where it's going,
+so that everyone is so to speak battling in the same direction.
+Another idea from Lean and Scrum, deliver as fast as possible.
+The view here of Mary Poppendieck is that it's not the biggest that
+survives, but the fastest.
+So the sooner the end product is delivered,
+the sooner feedback can be received.
+And she transposes to software the just-in-time production ideology.
+Once again, these are ideas that have to be considered with some distance,
+because the history of software development
+is also littered with companies that went too fast to market,
+like VisiCalc, for example, that opened a market for spreadsheets which was
+then taken over by much bigger fish.
+So be careful here of not just believing a single anecdote
+like the one that I just gave or any which would go in the other direction.
+One has in good engineering to weigh the pros and cons,
+rather than apply simplistic recipes.
+Another advice that Poppendieck gives is to try multiple designs.
+That is to say to have several teams compete.
+Well, this is something that has been proposed many times before Agile
+in software development.
+And the industry doesn't do it very much, mostly for cost reasons
+and also because developers tend to fall into the same pitfalls,
+so you would have to guarantee that the teams are really different.
+But still it's an idea to consider.
+Something more fundamental and highly subject to discussion,
+going back to our discussion of user stories,
+is the implicit idea behind the use of user stories
+as the basis for requirements, the implicit idea
+that you can actually pilot user stories and obtain requirements.
+Now, the promoters of Scrum in particular, Jeff Sutherland,
+go quite far in this direction and assert
+it is possible to remove dependencies between user stories
+so that at any point, any team can select any user
+story from a kind of queue of user stories,
+because there are no dependencies between them.
+So this if, if you think about it, an essential assumption
+behind the use of user stories as a source of requirements
+and this idea that every morning the team
+is going to-- the first person available in the team
+is going to pick the next user story.
+And this is really, to be quite open about it, more like a fairy tale.
+So to be more precise, it depends on the kind of system that you have.
+And here we can talk of two kinds of complexity, additive complexity
+and multiplicative complexity.
+We can also talk in more culinary terms of the lasagna kind of complexity
+and the linguine kind of complexity.
+These, of course, are only metaphors, but I think they carry the idea well.
+So there's a kind of complexity that is quite
+susceptible to working by subsequent user stories that you just pile up.
+This is the lasagna kind of complexity, where
+the various pieces of functionality are independent from each other.
+Assume that you have a system that supports a version in English,
+a version in French, and a version in Spanish.
+If you're asked to produce an Italian version of it,
+it's probably not going to be too hard, because it doesn't interfere that
+much with the existing functionalities,
+On the other hand, much of the interesting and difficult stuff
+in software happens when we have linguine style complexity.
+That is to say, the various features are so intricately intertwined
+that it's difficult to touch anything without pulling off everything else.
+And this is what makes software difficult as well as interesting.
+And if you have that kind of feature interaction,
+the idea that you can just take the next feature, the next user story and work
+on it without interacting with what already has been done just
+belongs to the realm of fairy tales.
+And we have a very good source for this observation, Pamela Zave,
+who has been all her career at AT&T studying and building
+telecommunications software.
+Telecommunications software is often feature-based.
+And she shows the limits of this approach.
+She says in telecommunication software, feature interactions
+are a notorious source of complexity, of bugs,
+of overruns, and bad user experiences.
+And she gives many examples.
+I'm only including two here, but I strongly urge you to read her article,
+starting with her web page, which already has a lot of material.
+So call forwarding and do not disturb, well, one person has call forwarding
+and his assistant has do not disturb.
+And the two features have not been planned together, so someone calls Bob,
+the call is forwarded to Carol, and Carol's phone, which shouldn't ring
+does, because do not disturb is not applied to a forwarded call
+and everyone had missed that.
+Or the case of a sales group where the feature
+is select anyone from the group.
+But one of the members of the group has forwarded the calls
+to his personal cell phone and sends a great greeting
+to the customer which is probably not what the customer was
+expecting when calling to buy a laptop.
+So this is typical of what happens when you try to mix features,
+just a pile of features which do not pile up naturally.
+And this shows that just relying on the succession of stories implementation
+is just not going to work.
+If we had been asked to write the user stories
+corresponding to this telecommunication example,
+we might have had a user story which gives the redirection
+specification and the next one which gives
+the mechanism, the procedure for busy actions,
+then one which gives the salesperson interruption mechanism
+for important customers, and so on.
+So each one of these by itself looks great.
+But then if you just put them together, they just don't make sense anyway
+and there's no substitute for abstracting from individual user
+stories and looking for the requirements of the system as a whole.
+A couple more principles coming from Crystal, more on the personal sides.
+Crystal emphasizes the human nature of software development very much.
+Personal safety, encourage free expression of ideas,
+Alistair Cockburn tells us.
+Do not ridicule anyone.
+This is more like good practices in a team.
+And humanity, this is in fact from Extreme Programming.
+It goes in the same general direction.
+It's from Kent Beck's book on Extreme Programming.
+Recognize that software is developed by people--
+this also comes very much from the influence of the Peopleware work
+by Lister DeMarco, which I mentioned in a preceding segment--
+so offer developers what they expect, safety, as also
+pointed out by Crystal, accomplishment, belonging, growth, and intimacy.
+So that's an important aspect of the Agile methods,
+the emphasis on the personal side and the respect due to programmers.
+What we have seen in this segment is a set
+of important ideas from all four example methods of this course, Scrum, Lean,
+Crystal, and Extreme Programming.
+And some of them are minimize waste and maximize learning.
+The two go together.
+Accumulate user stories, again as a mechanism for requirements gathering.
+And we've seen the really strict limits of that approach, which
+is highly subject to criticism.
+It's not among the best contributions of the Agile methods.
+And ensure personal safety and humanity, this entire focus of the Agile approach
+on providing programmers with a safe environment
+and respecting the personality of individual members of the team.
